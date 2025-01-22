@@ -1,0 +1,144 @@
+/* Profile.css */
+.profileContainer {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: burlywood;
+    border-radius: 6px;
+  }
+  
+  .profileTop {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profileCover {
+    width: 100%;
+    height: 250px;
+    position: relative;
+  }
+  
+  .profileCoverImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .profileUserImg {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    bottom: -75px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 3px solid rgb(245, 229, 8);
+  
+   background-position: center;
+   object-fit: cover;
+
+
+  }
+  
+  .profileInfo {
+    text-align: center;
+    margin-top: 90px;
+  }
+  
+  .profileInfoName {
+    font-size: 24px;
+    font-weight: bold;
+    color: #020202;
+  }
+  
+  .profileInfoDesc {
+    font-size: 16px;
+    color: #000000;
+  }
+  
+  .profileBottom {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .profileBottomLeft,
+  .profileBottomRight {
+    width: 48%;
+  }
+  
+  .profileSectionTitle {
+    font-size: 18px;
+    font-weight: bold;
+    color: #d42c2c;
+    margin-bottom: 10px;
+  }
+  
+  .profileAboutText {
+    font-size: 14px;
+    color: #272626;
+    line-height: 1.5;
+  }
+  
+  .profileFriends {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .profileFriend {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+  }
+  
+  .profileFriendImg {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 5px;
+  }
+  
+  .profileFriendName {
+    font-size: 12px;
+    color: #252708;
+    text-align: center;
+  }
+  /* Profile Page CSS */
+
+/* Previous Posts Section */
+.profilePosts {
+  margin-top: 30px;
+}
+
+.profilePosts .profileSectionTitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.postGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 100px); /* 3 columns, each 100px */
+  grid-template-rows: repeat(2, 100px);   /* 2 rows, each 100px */
+  gap: 10px; /* Spacing between the images */
+  justify-content: center; /* Center the grid */
+}
+
+.postImage {
+  width: 100px;  /* Updated size */
+  height: 100px; /* Updated size */
+  object-fit: cover; /* Maintain aspect ratio */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow effect */
+}

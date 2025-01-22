@@ -1,0 +1,81 @@
+/* home page.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0a1931;
+  }
+  .content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    
+  }
+  
+
+
+
+
+
+  .homePageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  /* TopBar Styling */
+  .topBar {
+    width: 100%;
+    background-color: #1877f2;
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Notification Section */
+  .notificationSection {
+    width: 100%;
+    max-width: 800px;
+    margin: 0;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Profile Section */
+  .profileSection {
+    width: 100%;
+    max-width: 800px;
+    margin: 0;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Comments Section */
+  .commentsSection {
+    width: 100%;
+    max-width: 800px;
+    margin: 0;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Feed Section */
+  .feedSection {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 ;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  

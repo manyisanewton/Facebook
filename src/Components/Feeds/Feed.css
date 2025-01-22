@@ -1,0 +1,128 @@
+/* General Feed Container */
+.feedContainer {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center content horizontally */
+  width: 400px;
+  margin: 0 ;
+  font-family: Arial, sans-serif;
+  color: #85fa00;
+  height: 400px;
+}
+
+/* Title of the feed */
+.feedTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Individual Post */
+.post {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 20px;
+  background-color: #180b11;
+  width: 100%;
+  max-width: 400px; /* Ensures post does not exceed container width */
+  display: flex;
+  flex-direction: column; /* Stack elements vertically within each post */
+}
+
+/* Post Header */
+.postHeader {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+/* Post Content */
+.postContent {
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+/* Photo Style */
+.postPhoto {
+  width: 300px;
+  max-width: 100%; /* Ensure it fits within the post */
+  height: 550px; /* Maintain aspect ratio */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Post Actions */
+.postActions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+/* Buttons */
+.likeButton,
+.commentButton {
+  padding: 8px 16px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.likeButton {
+  background-color: #ff009d;
+  color: #fff;
+}
+
+.likeButton:hover {
+  background-color: #eb1a1a;
+}
+
+.commentButton {
+  background-color: #bd7e08;
+  color: #fff;
+}
+
+.commentButton:hover {
+  background-color: #e6b104;
+}
+
+/* Comments Section */
+.postComments {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #ddd;
+}
+
+.comment {
+  font-size: 14px;
+  margin-bottom: 6px;
+  padding-left: 8px;
+}
+
+/* Add Comment Section */
+.addCommentSection {
+  display: flex;
+  margin-top: 12px;
+  align-items: center;
+}
+
+.commentInput {
+  width: calc(100% - 100px);
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.commentButton {
+  background-color: #241903;
+  color: #fff;
+}
+
+.commentButton:hover {
+  background-color: #25061b;
+}
